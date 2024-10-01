@@ -22,7 +22,9 @@ list_of_filepaths=[
     "pyproject.toml",
     "experiments/experiment.ipynb",
     "requirements.txt",
-    "requirements_dev.txt"
+    "requirements_dev.txt",
+    "tests/unit_test/__init__.py",
+    "tests/integrate_test/__init__.py"
 ]
 
 for filepath in list_of_filepaths:
